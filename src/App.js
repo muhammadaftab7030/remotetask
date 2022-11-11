@@ -1,12 +1,16 @@
 import React from 'react'
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import InputData from './Components/InputData'
+import Show_Nationality from './Components/Show_Nationality'
+
+
+
 const App = () => {
-  
+    
   return (
     <React.Fragment>
+    
     <InputData />
+    <Show_Nationality />
     </React.Fragment>
   )
 }
